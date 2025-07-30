@@ -9,7 +9,7 @@ import json
 import asyncio
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCzis3FyYHJZWnn-3-93zeJ8ySR0MBuiU8"
+os.environ["GOOGLE_API_KEY"] = "GOOGLE-API-Key"
 
 def get_weather_report(latitude: float, longitude: float):
     """
